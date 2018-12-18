@@ -1,0 +1,36 @@
+<ion-header>
+  <ion-navbar color="primary">
+    <ion-title>
+      ALARME APP
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+ 
+<ion-content>
+ 
+    <ion-list no-lines>
+ 
+        <ion-item>
+          <ion-label>Definir hora do Alarme:</ion-label>
+          <ion-datetime displayFormat="h:mm A" pickerFormat="h mm A" [(ngModel)]="notifyTime" (ionChange)="timeChange($event)"></ion-datetime>
+        </ion-item>
+ 
+        <ion-item>
+            <ion-label>Nos seguintes dias:</ion-label>
+        </ion-item>
+ 
+        <ion-item *ngFor="let day of days">
+            <ion-label>{{day.title}}</ion-label>
+            <ion-checkbox [(ngModel)]="day.checked" color="primary"></ion-checkbox>
+        </ion-item>
+ 
+    </ion-list>
+ 
+</ion-content>
+ 
+<ion-footer padding>
+ 
+    <button (click)="addNotifications()" ion-button color="primary" full>ADICIONAR</button>
+    <button (click)="cancelAll()" ion-button color="danger" full>CANCELAR</button>
+ 
+</ion-footer>
