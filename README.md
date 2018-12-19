@@ -13,11 +13,11 @@ HOW TO USE IT
 1) Select date and time and set alarms
 Select date and time and set alarms for monitoring and tracking day time.
 
-2) Alarm notifications even when the app is closed
-Alarm notifications in old and used android devices also when the alarm app is closed
+2) Alarm alerts even when the app is closed
+Alarm alerts in old and used android devices also when the alarm app is closed
 
-3) Alarm set on the day and time selected
-Alarm selected for the day and time selected.
+3) Alarm sounds on the day and time selected
+Alarm noise for your on the day and time selected.
 
 ---------------------------------------------------------------------------------
 ```bash
