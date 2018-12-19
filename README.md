@@ -10,14 +10,14 @@ Solution for wake up using the app alarme
 
 HOW TO USE IT
 
-1) Select date and time and set alarms
-Select date and time and set alarms for monitoring and tracking day time.
+1) Select date and time and set alarms. 
+    Select date and time and set alarms for monitoring and tracking day time.
 
-2) Alarm alerts even when the app is closed
-Alarm alerts in old and used android devices also when the alarm app is closed
+2) Alarm alerts even when the app is closed. 
+    Alarm alerts in old and used android devices also when the alarm app is closed.
 
-3) Alarm sounds on the day and time selected
-Alarm noise for your on the day and time selected.
+3) Alarm sounds on the day and time selected. 
+    Alarm noise for your on the day and time selected.
 
 ---------------------------------------------------------------------------------
 ```bash
@@ -91,10 +91,10 @@ $ ionic cordova build android
 ### Emulate the app on simulator
 iOS:
 ```bash
-$ cordova emulate ios
+$ ionic cordova emulate ios
 ```
 
 Android:
 ```bash
-$ cordova emulate android
+$ ionic cordova emulate android
 ```
